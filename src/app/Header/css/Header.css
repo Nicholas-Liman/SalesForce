@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Righteous&display=swap');
+
+:root{
+    --azul-escuro: #1D3557;
+    --branco: #F1FAEE;
+   --titulo: "Righteous", "Sans-serif";
+   --texto-comum: "Alata", "Sans-serif";
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+@media (min-width: 800px) and (max-width: 1400px){
+}
+@media (min-width: 720px) and (max-width: 1024px){
+}
+@media (min-width: 440px)and (max-width: 580px){
+
+}
+@media (min-width: 320px)and (max-width: 439px){
+
+    .opcoes-header{
+        display: none;
+    }
+    .menu-header{
+        background-color: transparent;
+        width: 10vw;
+    }
+    .section-principal-header{
+        height: 30vh;
+        background-color: var(--azul-escuro);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .div-principal-header{
+        background-color: transparent;
+        display: flex;
+        gap: 20px;
+    }
+    .LogoSalesForce-header{
+        background-color: transparent;
+        width: 60vw;
+    }
+}
