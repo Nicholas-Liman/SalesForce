@@ -1,69 +1,217 @@
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Righteous&display=swap');
-@media (min-width: 800px) and (max-width: 1400px){
-.navegacao-personagens{
-    display: flex;
-    justify-content: center;
-    margin: 2rem;
+:root{
+    --azul-escuro: #1D3557;
+    --azul-claro: #0176D3;
+    --branco: #F1FAEE;
+   --titulo: "Righteous", "Sans-serif";
+   --texto-comum: "Alata", "Sans-serif";
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-.conjunto-propositos-personagens{
-    display: flex;
-    width: 70rem;
-    height: 20rem;
-    background-color: #669bbc;
-    border-radius: 20px;
-    padding: 2%;
-}
-.personagem-esquerda-personagens{
-    width: 80%;
-    margin: 20px;
-}
-.texto-esquerda-personagens{
-    padding: 20px;
-    width: 50rem;
-}
-.texto-esquerda{
-    font-size: 20px;
-    font-family: "Ibarra+Real+Nova";
-    padding: 1%;
-}
-.titulo-esquerda-personagens{
-    display: flex;
-    align-items: start;
-    font-family: "Righteous";
-    margin-left: 1%;
-}
-.personagem-direita-personagens{
-    width: 80%;
-    margin: 20px;
-    float: left;
-}
-.texto-direita-personagens{
-    padding: 20px;
-    width: 50rem
-}
-.titulo-direita-personagens{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    font-family: "Righteous";
-    margin-right: 5%;
-}
-.texto-direita{
-    font-size: 20px;
-    font-family: "Ibarra+Real+Nova";
-    padding: 1%;
-}
-.subtitulo-personagens{
-    display: flex;
-    justify-content: center;
-    font-family: "Ibarra+Real+Nova";
-    font-size: 15px;
-}
-}
-@media (min-width: 450px) and (max-width: 799px){
+@media (min-width: 320px)and (max-width: 439px){
+    .navegacao-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-block: 2.5rem;
+    }
+    .conjunto-propositos-personagens{
+        background-color: var(--azul-claro);
+        width: 90vw;
+        border-radius: 20px;
 
+    }
+    .personagem-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+    }
+    .organizacao-personagens{
+        display:flex;
+        justify-content: center;
+    }
+    .texto-personagens{
+        padding: 4vw;
+    }
+    .titulo-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--titulo);
+        color: var(--branco)
+    }
+    .subtitulo-personagens{
+        font-size: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--texto-comum);
+        color: var(--branco);
+        margin-bottom: 1vh;
+    }
+    .texto-esquerda{
+        font-family: var(--texto-comum);
+        color: var(--branco);
+    }
 }
-@media screen and (max-width: 449px){
+@media (min-width: 440px)and (max-width: 580px){
+    .navegacao-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-block: 2.5rem;
+    }
+    .conjunto-propositos-personagens{
+        background-color: var(--azul-claro);
+        width: 90vw;
+        border-radius: 20px;
 
+    }
+    .personagem-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+    }
+    .organizacao-personagens{
+        display:flex;
+        justify-content: center;
+    }
+    .texto-personagens{
+        padding: 4vw;
+    }
+    .titulo-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--titulo);
+        color: var(--branco);
+        font-size: 4.5vw;
+    }
+    .subtitulo-personagens{
+        font-size: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--texto-comum);
+        color: var(--branco);
+        margin-bottom: 1vh;
+    }
+    .texto-esquerda{
+        font-family: var(--texto-comum);
+        color: var(--branco);
+    }
+}
+@media (min-width: 720px) and (max-width: 1024px){
+    .navegacao-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-block: 2.5rem;
+    }
+    .conjunto-propositos-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--azul-claro);
+        width: 95vw;
+        border-radius: 20px;
+
+    }
+    .personagem-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28vw;
+    }
+    .organizacao-personagens{
+        display:flex;
+        justify-content: center;
+    }
+    .texto-personagens{
+        padding: 4vw;
+    }
+    .titulo-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--titulo);
+        color: var(--branco);
+        font-size: 3vw;
+    }
+    .subtitulo-personagens{
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--texto-comum);
+        color: var(--branco);
+        margin-bottom: 1vh;
+    }
+    .texto-esquerda{
+        font-family: var(--texto-comum);
+        color: var(--branco);
+        font-size: 1.4rem;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px){
+    .navegacao-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-block: 2.5rem;
+    }
+    .conjunto-propositos-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--azul-claro);
+        width: 85vw;
+        padding-inline: 1vw;
+        padding-block: .5vw;
+        border-radius: 20px;
+
+    }
+    .personagem-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28vw;
+    }
+    .organizacao-personagens{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto-personagens{
+        padding: 4vw;
+    }
+    .titulo-personagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--titulo);
+        color: var(--branco);
+        font-size: 3vw;
+    }
+    .subtitulo-personagens{
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--texto-comum);
+        color: var(--branco);
+        margin-bottom: 1vh;
+    }
+    .texto-esquerda{
+        font-family: var(--texto-comum);
+        color: var(--branco);
+        font-size: 1.4rem;
+    }
 }

@@ -1,13 +1,259 @@
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Righteous&display=swap');
-/*DESKTOPS*/
+:root{
+    --azul-escuro: #1D3557;
+    --azul-claro: #0176D3;
+    --branco: #F1FAEE;
+   --titulo: "Righteous", "Sans-serif";
+   --texto-comum: "Alata", "Sans-serif";
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@media (min-width: 320px)and (max-width: 439px){
+    .titulo-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10vw;
+        font-family: var(--titulo);
+        color: var(--azul-escuro);
+        margin-block: 1rem;
+    }
+    .alinhamento-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .personagem-trailFinder{
+        width: 40vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .edicao-texto-questionario{
+        width: 85vw;
+        padding: 6vw;
+        background-color: #cce3de;
+    }
+    .edicao-explicacao{
+    }
+    .texto-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--texto-comum);
+        font-size: 5vw;
+        margin-bottom: 4vw;
+    }
+    .botao-questionario{
+        padding: 1rem;
+        border-radius: 10px;
+        background-color: var(--azul-escuro);
+        border: var(--azul-escuro);
+        font-family: var(--texto-comum);
+        color: var(--branco);
+    }
+    .organizacao-trailfinder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .edicao-botao-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (min-width: 440px)and (max-width: 580px){
+    .titulo-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10vw;
+        font-family: var(--titulo);
+        color: var(--azul-escuro);
+        margin-block: 1rem;
+    }
+    .alinhamento-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2vw;
+    }
+    .personagem-trailFinder{
+        width: 40vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .edicao-texto-questionario{
+        width: 85vw;
+        padding: 6vw;
+        background-color: #cce3de;
+    }
+    .edicao-explicacao{
+    }
+    .texto-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--texto-comum);
+        font-size: 3.5vw;
+        margin-bottom: 4vw;
+    }
+    .botao-questionario{
+        padding: 1.5rem;
+        border-radius: 10px;
+        background-color: var(--azul-escuro);
+        border: var(--azul-escuro);
+        font-family: var(--texto-comum);
+        color: var(--branco);
+    }
+    .botao-questionario b{
+        font-size: 1rem;
+    }
+    .organizacao-trailfinder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .edicao-botao-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+}
+@media (min-width: 720px) and (max-width: 1024px){
+    .secao-questionario{
+        margin-inline: 5vw;
+    }
+    .titulo-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+        font-family: var(--titulo);
+        color: var(--azul-escuro);
+        margin-block: 1rem;
+    }
+    .alinhamento-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2vw;
+    }
+    .personagem-trailFinder{
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .edicao-texto-questionario{
+        width: 65vw;
+        padding: 2vw;
+        background-color: #cce3de;
+    }
+    .edicao-explicacao{
+    }
+    .texto-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--texto-comum);
+        font-size: 2.5vw;
+        margin-bottom: 2vw;
+    }
+    .botao-questionario{
+        padding: 1rem;
+        border-radius: 10px;
+        background-color: var(--azul-escuro);
+        border: var(--azul-escuro);
+        font-family: var(--texto-comum);
+        color: var(--branco);
+    }
+    .botao-questionario b{
+        font-size: 1rem;
+    }
+    .organizacao-questionario-tablets{
+        display: flex;
+    }
+    .organizacao-trailfinder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .edicao-botao-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+}
 @media (min-width: 1025px) and (max-width: 1440px){
-
-}
-/*TABLETS*/
-@media (min-width: 768px) and (max-width: 1024px){
-
-}
-/*CELULARES*/
-@media (min-width: 320px) and (max-width: 580px){
-
+    .secao-questionario{
+        margin-inline: 5vw;
+    }
+    .titulo-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+        font-family: var(--titulo);
+        color: var(--azul-escuro);
+        margin-block: 1rem;
+    }
+    .alinhamento-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2vw;
+    }
+    .personagem-trailFinder{
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .edicao-texto-questionario{
+        width: 65vw;
+        padding: 2vw;
+        background-color: #cce3de;
+    }
+    .edicao-explicacao{
+    }
+    .texto-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--texto-comum);
+        font-size: 2vw;
+        margin-bottom: 2vw;
+    }
+    .botao-questionario{
+        padding: 1.5rem;
+        border-radius: 10px;
+        background-color: var(--azul-escuro);
+        border: var(--azul-escuro);
+        font-family: var(--texto-comum);
+        color: var(--branco);
+    }
+    .botao-questionario b{
+        font-size: 1rem;
+    }
+    .organizacao-questionario-tablets{
+        display: flex;
+    }
+    .organizacao-trailfinder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .edicao-botao-questionario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
 }

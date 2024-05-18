@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "./Header/page"
 import Footer from "./Footer/page"
+import Trail from "./TrailFinder/page"
 
 export const metadata: Metadata = {
   title: "AMR",
