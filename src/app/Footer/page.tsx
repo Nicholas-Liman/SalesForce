@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="div-subprincipal-footer">
                     <div className="organizacao-den-socialMedia">
                         <div className="desenvolvedores-footer">
-                            <h1 className="tag-desen-footer">DESENVOLVEDORES</h1>
+                            <Link href={"/Desenvolvedores"}><h1 className="tag-desen-footer">DESENVOLVEDORES</h1></Link>
                         </div>
                         <div className="redes-sociais-footer">
                         <div className="card">

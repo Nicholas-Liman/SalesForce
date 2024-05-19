@@ -92,6 +92,11 @@
     display: flex;
     justify-content: center;
   }
+  .mensagem-sucesso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media (min-width: 440px)and (max-width: 580px){
   .card-formulario {
@@ -180,6 +185,11 @@
   .botao-submit{
     display: flex;
     justify-content: center;
+  }
+  .mensagem-sucesso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (min-width: 720px) and (max-width: 1024px){
@@ -277,6 +287,11 @@
     justify-content: center;
     margin-left: -6vw;
   }
+  .mensagem-sucesso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media (min-width: 1025px) and (max-width: 1440px){
   .card-formulario {
@@ -363,5 +378,10 @@
   .botao-submit{
     display: flex;
     justify-content: center;
+  }
+  .mensagem-sucesso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

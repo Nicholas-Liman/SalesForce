@@ -101,6 +101,13 @@
       .button-desenvolvedores:hover {
         box-shadow: none;
       }
+      .github-desenvolvedores{
+        color: var(--branco);
+        font-size: 1.2rem;
+      }
+      .github-desenvolvedores:visited{
+        color: var(--branco);
+      }
   }
   @media (min-width: 440px)and (max-width: 580px){
     .titulo-desenvolvedores{
@@ -190,6 +197,13 @@
       .button-desenvolvedores:hover {
         box-shadow: none;
       }
+      .github-desenvolvedores{
+        color: var(--branco);
+        font-size: 1.2rem;
+      }
+      .github-desenvolvedores:visited{
+        color: var(--branco);
+      }
   }
   @media (min-width: 720px) and (max-width: 1024px){
     .titulo-desenvolvedores{
@@ -253,14 +267,15 @@
     .button-desenvolvedores {
         display: flex;
         justify-content: center;
+        margin-inline: 20vw;
         align-items: center;
         background-color: rgb(24, 23, 23);
         color: #ffffff;
         margin-top: 2vh;
-        padding: 0.5rem 1.4rem;
+        padding: 0.2rem 1rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
-        font-weight: 700;
+        font-weight: 600;
         text-align: center;
         vertical-align: middle;
         align-items: center;
@@ -278,6 +293,13 @@
       
       .button-desenvolvedores:hover {
         box-shadow: none;
+      }
+      .github-desenvolvedores{
+        color: var(--branco);
+        font-size: 1.2rem;
+      }
+      .github-desenvolvedores:visited{
+        color: var(--branco);
       }
   }
   @media (min-width: 1025px) and (max-width: 1440px){
@@ -342,14 +364,15 @@
     .button-desenvolvedores {
         display: flex;
         justify-content: center;
+        margin-inline: 20vw;
         align-items: center;
         background-color: rgb(24, 23, 23);
         color: #ffffff;
         margin-top: 2vh;
-        padding: 0.5rem 1.4rem;
+        padding: 0.2rem 1rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
-        font-weight: 700;
+        font-weight: 600;
         text-align: center;
         vertical-align: middle;
         align-items: center;
@@ -367,5 +390,12 @@
       
       .button-desenvolvedores:hover {
         box-shadow: none;
+      }
+      .github-desenvolvedores{
+        color: var(--branco);
+        font-size: 1.2rem;
+      }
+      .github-desenvolvedores:visited{
+        color: var(--branco);
       }
   }
