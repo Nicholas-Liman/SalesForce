@@ -130,7 +130,40 @@
   .socialSvg {
     width: 8vw;
   }
-  
+  .mapa-navegação{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    font-family: var(--titulo);
+    font-size: 5vw;
+  }
+  .opcoes-mapa-footer{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--texto-comum);
+    margin-top: 1vw;
+    gap: 1vw;
+  }
+  .opcao-footer{
+    font-size: 5vw;
+    color: var(--branco);
+    font-family: "Ibarra Real Nova", serif;
+  }
+  .opcao-footer:visited{
+    color: white;
+  }
+  .opcao-footer:hover{
+    font-size: 1.5vw;
+    color: white;
+    border-radius: 5px;
+    padding: .5vw;
+    border: 1px solid #032D60;
+    background-color: #032D60;
+  }
+  .organizacao-mapa-footer{
+    display: flex;
+  }
 }
 @media (min-width: 440px)and (max-width: 580px){
   .div-footer-principal{
@@ -250,6 +283,40 @@
   }
   .socialSvg {
     width: 8vw;
+  }
+  .mapa-navegação{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    font-family: var(--titulo);
+    font-size: 5vw;
+  }
+  .opcoes-mapa-footer{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--texto-comum);
+    margin-top: 1vw;
+    gap: 1vw;
+  }
+  .opcao-footer{
+    font-size: 5vw;
+    color: var(--branco);
+    font-family: "Ibarra Real Nova", serif;
+  }
+  .opcao-footer:visited{
+    color: white;
+  }
+  .opcao-footer:hover{
+    font-size: 1.5vw;
+    color: white;
+    border-radius: 5px;
+    padding: .5vw;
+    border: 1px solid #032D60;
+    background-color: #032D60;
+  }
+  .organizacao-mapa-footer{
+    display: flex;
   }
 }
 @media (min-width: 720px) and (max-width: 1024px){

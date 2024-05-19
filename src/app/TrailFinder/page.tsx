@@ -2,7 +2,6 @@
 import { useState } from "react";
 import "./css/estilo.css";
 
-
 const TrailFinder = () => {
     const [data, setData] = useState({
         name: '',
@@ -11,6 +10,7 @@ const TrailFinder = () => {
         tipoEmpresa: '',
         setor: ''
     });
+    const [formSubmitted, setFormSubmitted] = useState(false);
 
     const handleFormEdit = (event:any, name:any) => {
         setData({
@@ -33,6 +33,7 @@ const TrailFinder = () => {
                 const text = await response.text();
                 const json = text ? JSON.parse(text) : {}; // Verifica se o texto da resposta não está vazio antes de fazer a análise JSON
                 console.log(json);
+                setFormSubmitted(true); // Define que o formulário foi enviado com sucesso
             } else {
                 console.error('Erro ao enviar formulário:', response.statusText);
             }
@@ -102,6 +103,7 @@ const TrailFinder = () => {
                 <div className="botao-submit">
                     <button className="button-trailfinder" type="submit">ENVIE</button>
                 </div>
+                {formSubmitted && <p className="mensagem-sucesso">Enviado com sucesso</p>}
             </form>
         </section>
     )
